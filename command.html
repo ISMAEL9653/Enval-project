@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="height: 100vh; background-color: #b6e7f3;">
+    <div class="container-fluid m-0 p-0" style="background-color: #b6e7f3;height: 100%;">
+        <div class="row">
+            <div class="col-2 col-md-1 col-lg-2 bg-white" style="height: 100vh;">
+                
+                <div class="h-50">
+                    <img src="images/Enval logoV.png" class="w-100 d-none d-lg-inline" alt="">
+                <ul class="list-group" style="list-style: none; padding: 0;" >
+            
+                   <!-- sidebar menu -->
+                    <li>
+                        <a href="dashboard.html" style="text-decoration: none; color: black;"><i class="bi bi-grid p-2"></i><span class="d-none d-lg-inline">Dashboard</span></a>
+                    </li>
+                    <li>
+                        <a href="facture.html" style="text-decoration: none; color: black;"><i class="bi bi-pie-chart p-2"></i></i><span class="d-none d-lg-inline">Facture</span></a>
+                    </li>
+                    <li class="act">
+                        <a href="command.html" style="text-decoration: none; color: black;"><i class="bi bi-cart p-2"></i></i><span class="d-none d-lg-inline">Commande</span></a>
+                    <li >
+                        <a href="suivi.html" style="text-decoration: none; color: black;"><i class="bi bi-bag p-2"></i><span class="d-none d-lg-inline">Suivie</span></a>
+                    </li>
+                    <li>
+                        <a href="serviceclient.html" style="text-decoration: none; color: black;"><i class="bi bi-chat-left-text p-2"></i><span class="d-none d-lg-inline">service client</span></a>
+                    </li>
+                </ul>
+                </div>
+                <div class="h-50 d-flex align-items-end bottom-0">  
+                   
+                    <ul class="list-group" style="list-style: none; padding: 0;" >
+                        <li>
+                            <a href="#" style="text-decoration: none; color: black; display: block; display: flex;"
+                              ><i class="bi bi-gear p-2" style="display: block; position: relative; bottom: 5px;"></i
+                              ><span class="d-none d-lg-inline setting" style="display: block;">parametre</span></a
+                            >
+                          </li>
+                        <li>
+                            <a href="index.html" style="text-decoration: none;color: black;"><i class="bi bi-box-arrow-left p-2"></i><span class="d-none d-lg-inline">Deconexion</span></a>
+                        </li>
+                    </ul>
+                </div>     
+            </div>
+          
+            <div class="col-10 col-md-11 col-lg-10 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-end">
+                    <i class="bi bi-bell-fill " style="font-size: 30px;"></i>  
+                    <div class="bg-danger"  style="height: 8px; width: 8px; border-radius: 20px;margin-top: -20px;margin-left: -11px;"></div>
+                    <img src="images/b.png" class="ms-4" style="height: 45px;" alt="">  
+                </nav>
+                <div class="bg-white mt-3  table-responsive " style="border-radius: 15px; margin-right: 10px;">
+                    <table class=" table table-bordered mt-5" style="margin-left: 15px; height: 50em;" id="tcommande">
+                        <thead>
+                            <tr>
+                                <th class="border-start-0 border-end-0">Commande</th>
+                                <th class="border-start-0 border-end-0"></th>
+                                <th class="border-start-0 border-end-0"></th>
+                                <th class="border-start-0 border-end-0"></th>
+                                <th class="border-end-0 border-start-0">
+                                    <input type="text" class="border-0 w-75" placeholder="&#xF52A" style="height: 40px; background: rgb(227, 223, 223); border-radius: 5px; font-family: bootstrap-icons;">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tr>
+                           <td class="border-start-0">Comande</td> 
+                           <td class="text-center">Laboratoire</td>
+                           <td class="text-center">Date</td>
+                           <td class="text-center">Status</td>
+                           <td class="border-end-0 text-center">Cliquez pour voir le rapport</td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td class="text-center">Enval</td>
+                            <td class="text-center">10/03/2023</td>
+                            <td class="text-danger text-center">En cours</td>
+                            <td  class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr>
+                            <td class="border-start-0">000112</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"><button class="py-2 mt-4"><a class="text-white" style="text-decoration: none;" href="#">Voir</a></button></td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td class="border-start-0 py-4"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="border-end-0 text-center"></td>
+                        </tr>
+                    </table>
+                </div>
+                
+        </div>
+        
+    </div>
+   
+  </body>
+</html>
+</body>
+
+</html>
+
+                

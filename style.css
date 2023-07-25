@@ -1,0 +1,226 @@
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+.setting{
+    white-space: nowrap;
+}
+#tcommande, #tsuivi{
+  width: 98%;
+}
+/* cercle */
+.graphe {
+  max-width: 1440px;
+  width: 70%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 15rem);
+  justify-content: space-evenly;
+}
+.graphe-content {
+  /* background-color: #73d5e7; */
+  max-width: 1440px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 80%);
+  align-items: center;
+  
+}
+
+.positif {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 5%;
+  background-color: #1898a8;
+  position: relative;
+}
+.negatif {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 5%;
+  background-color: white;
+  position: relative;
+}
+
+.pourcentage1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  left: 6rem;
+  top: 12rem;
+}
+
+.pourcentage2 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  left: 40%;
+  top: 60%;
+}
+
+ul li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+ul li:hover {
+  background-color: #93e0ef;
+}
+.act {
+  background-color: #93e0ef;
+}
+
+.inc {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+/* .bg {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  color: yellow;
+} */
+
+#icn {
+  border-radius: 50px;
+}
+.cont {
+  background-color: #54b5c2;
+  width: 2rem;
+  border-radius: 5rem;
+  height: 2em;
+  margin-left: 6em;
+}
+.purcent {
+  color: white;
+  /* padding-bottom: ; */
+  text-align: center;
+}
+.tb {
+  width: 98%;
+  height: 72rem !important;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4a96a6;
+  color: white;
+  /* width:25%; */
+  border-radius: 5px;
+  border: 0;
+  height: 50%;
+  font-size: 15px;
+  width: 40%;
+}
+
+.btn2 {
+  height: 35px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(232, 230, 230);
+}
+.btn3 {
+  height: 60vh;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(232, 230, 230);
+}
+.btn4 {
+  color: white;
+  background-color: #4a96a6;
+  width: 90%;
+  border-radius: 5px;
+  height: 40px;
+}
+.color {
+  background-color: #4a96a6;
+}
+.table-personnalise tr,
+.table-personnalise td {
+  border-style: none !important;
+}
+.table-personnalise {
+  height: 100% !important;
+}
+.degrade {
+  height: 8em;
+  background: linear-gradient(to right, green, orange, red);
+}
+
+.paragraph2 {
+  font-size: px;
+}
+#chartS {
+  margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #chartS {
+    width: 80vw;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .graphe-content {
+    max-width: 1440px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 90%);
+  }
+  .degrade {
+    height: 18em;
+  }
+  .text-end {
+    justify-content: center;
+    padding-top: 50% !important;
+  }
+  .contenu{
+    margin-left: 8.33% !important;
+   
+  }
+}
+@media screen and (max-width: 375px) {
+  .graphe {
+    margin-left: 30px;
+  }
+  .graphe-content {
+    margin-left: 20px;
+  }
+  .contenu{
+    margin-left: 16% !important;
+   
+  }
+  
+}
+@media screen and (max-width: 425px) {
+    .graphe {
+      margin-left: 30px;
+    }
+    .graphe-content {
+      margin-left: 20px;
+    }
+    .contenu{
+      margin-left: 16% !important;
+     
+    }
+    .tcommun{
+        width: 34em !important;
+    }
+    #tcommande{
+      width: 38em;
+    }
+    #tsuivi{
+      width: 45em !important;
+    }
+    
+  }

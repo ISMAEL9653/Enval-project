@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body style="height: 100vh; background-color: #b6e7f3;">
+    <div style="height: 100vh;">
+      <div class="container-fluid m-0 p-0" style="background-color: #b6e7f3; height: 100vh;">
+        <div class="row" style="height: 100vh;">
+          <div class="col-2 col-md-1 col-lg-2 bg-white" >
+            <div class="h-50">
+              <img
+                src="images/Enval logoV.png"
+                class="w-100 d-none d-lg-inline"
+                alt=""
+              />
+              <ul class="list-group" style="list-style: none; padding: 0">
+                <!-- sidebar menu -->
+                <li>
+                  <a
+                    href="dashboard.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-grid p-2"></i
+                    ><span class="d-none d-lg-inline">Dashboard</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="facture.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-pie-chart p-2"></i
+                    ><span class="d-none d-lg-inline">Facture</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="command.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-cart p-2"></i
+                    ><span class="d-none d-lg-inline">Commande</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="suivi.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-bag p-2"></i
+                    ><span class="d-none d-lg-inline">Suivie</span></a
+                  >
+                </li>
+                <li class="act">
+                  <a
+                    href="serviceclient.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-chat-left-text p-2"></i
+                    ><span class="d-none d-lg-inline">service client</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="h-50 d-flex align-items-end bottom-0">
+              <ul class="list-group" style="list-style: none; padding: 0">
+                <li>
+                  <a href="#" style="text-decoration: none; color: black; display: block; display: flex;"
+                    ><i class="bi bi-gear p-2" style="display: block; position: relative; bottom: 5px;"></i
+                    ><span class="d-none d-lg-inline setting" style="display: block;">parametre </span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="index.html"
+                    style="text-decoration: none; color: black"
+                    ><i class="bi bi-box-arrow-left p-2"></i
+                    ><span class="d-none d-lg-inline">Deconexion</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-10 col-md-11 col-lg-10 h-25">
+            <nav
+              class="navbar navbar-expand-lg navbar-white bg-white justify-content-end"
+            >
+              <i class="bi bi-bell-fill" style="font-size: 30px"></i>
+              <!-- <div
+                class="bg-danger"
+                style="
+                  height: 8px;
+                  width: 8px;
+                  border-radius: 20px;
+                  margin-top: -20px;
+                  margin-left: -11px;
+                "
+              ></div> -->
+              <img src="images/b.png" class="ms-4" style="height: 45px" alt="" />
+            </nav>
+            <div
+              class="bg-white mt-3"
+              style="border-radius: 15px; margin-right: 10px; margin-bottom: 10px;  "
+            >
+              <div class="p-5">
+                <h6>Sujet</h6>
+                <input class="btn2" type="text" />
+                <div class="pt-3">
+                  <h6>Message</h6>
+                </div>
+                <input class="btn3" type="text" />
+                <div class="pt-4">
+                  <button class="btn4">Envoyer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
